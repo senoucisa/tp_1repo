@@ -1,0 +1,84 @@
+body{
+    background: rgb(100,100,100);
+    color: white;
+    font-family: serif;
+}
+header{
+    background:#228B22;
+    height: 80px;
+}
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+    border:2px solid;
+}
+
+nav{
+    height: 30px;
+    background:  #9A40A4;
+}
+section{
+    background-color: yellowgreen;
+    height: 500px;
+    margin: 20px;
+}
+.logo{
+   background: #32a7a0;
+    height: 230px;
+    width: 400px;
+    float: left;
+}
+.s1{
+    background: pink;
+    height: 46px;
+    width: 100px;
+    float: left;
+
+} 
+
+.s2{
+    background: #32a7a0;
+    height: 46px;
+    width: 100px;
+    float: left;
+
+} 
+
+.s3{
+    background: grey;
+    height: 46px;
+    width: 100px;
+    float: left;
+
+} 
+
+.s4{
+    background: green;
+    height: 46px;
+    width: 100px;
+    float: left;
+
+} 
+.menu1{
+    float: left;
+}
+.menu2{
+    float: left;
+}
+.menu3{
+    float: left;
+}
+.menu4{
+    float: left;
+}
+.logo{
+    float: left;
+    width: 25px;
+    height: 120px;
+    background: #3cb371;
+}
+footer{
+    height: 80px;
+}
+
+   
