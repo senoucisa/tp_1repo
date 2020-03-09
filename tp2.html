@@ -1,51 +1,275 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
 <head>
-​
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>TP 2</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TP 1</title>
+
 ​
+
     <!-- lien vers la page de style -->
-    <link rel="stylesheet" href="css/tp2.css">
+<style>
+
+
+
+    
+
+body {
+
+color: #fff;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+text-transform: uppercase;
+
+text-align: center;
+
+}
+
+.conteneur {
+
+width: 80%;
+
+margin: 0 auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+}
+
+header {
+
+background-color: #228b22;
+
+height: 120px;
+
+}
+
+#logo {
+
+width: 25%;
+
+height: 120px;
+
+background-color: #3cb371;
+
+position: relative;
+
+}
+
+#logo p {
+
+position: absolute;
+
+top: 40%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+}
+
+nav {
+
+display: flex;
+
+flex-wrap: wrap;
+
+}
+
+#menu {
+
+width: 75%;
+
+height: 100px;
+
+}
+
+.menu1 {
+
+background-color: #32cd32;
+
+width: 25%;
+
+margin-top: 40px;
+
+margin-bottom: 20px;
+
+line-height: 40px;
+
+}
+
+.menu2 {
+
+background-color: #9acd32;
+
+width: 25%;
+
+margin-top: 40px;
+
+margin-bottom: 20px;
+
+line-height: 40px;
+
+}
+
+main {
+
+background-color: rgb(100,100,100);
+
+}
+
+.bloc {
+
+background-color: rgb(200,200,200);
+
+width: 46%;
+
+height: 100px;
+
+margin: 2%;
+
+line-height: 100px;
+
+}
+
+#maps {
+
+width: 100%;
+
+}
+
+footer {
+
+height: 80px;
+
+background-color: #228b22;
+
+line-height: 80px;
+
+}
+
+.footer1 {
+
+background-color: #32cd32;
+
+height: 80px;
+
+width: 50%;
+
+}
+
+.footer2 {
+
+background-color: #9acd32;
+
+height: 80px;
+
+width: 50%;
+
+}
+</style>
+
 ​
+
 </head>
+
 <body>
-   
-    <header>
-        <div class="conteneur">
+
+​
+
+    <!-- conteneur principal de la page -->
+
+    <div id="conteneur">
+
+​
+
+        <!-- en-tête de la page -->
+
+        <header>
+
             <div id="logo">
-                <p>Logo</p>
+
+                Logo
+
             </div>
+
+            <div id="banniere">
+
+                Bannière
+
+            </div>
+
+            <!-- navigation de la page -->
+
             <nav id="menu">
-                <div class="menu1">Menu 1</div>
-                <div class="menu2">Menu 2</div>
-                <div class="menu1">Menu 3</div>
-                <div class="menu2">Menu 4</div>
+
+                <a href="#" class="menu1">Menu 1</a>
+
+                <a href="#" class="menu2">Menu 2</a>
+
+                <a href="#" class="menu1">Menu 3</a>
+
+                <a href="#" class="menu2">Menu 4</a>
+
+                <a href="#" class="menu1">Menu 5</a>
+
+                <a href="#" class="menu2">Menu 6</a>
+
             </nav>
-        </div>
-    </header>
+
+        </header>
+
 ​
-    <main>
-        <div class="conteneur">
-            <div class="bloc">Bloc A</div>
-            <div class="bloc">Bloc B</div>
-            <div id="maps">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.81538240801!2d2.25231711597291!3d48.84266007928588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67abf4dc94695%3A0x4d41b7cedc34007!2s1%20Rue%20Claude%20Farr%C3%A8re%2C%2075016%20Paris!5e0!3m2!1sfr!2sfr!4v1582879884082!5m2!1sfr!2sfr"
-                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        <!-- main de la page -->
+
+        <main>
+
+            <aside id="aside">
+
+                <div class="colonne">Colonne A</div>
+
+                <div class="colonne">Colonne B</div>
+
+                <div class="colonne">Colonne C</div>
+
+                <div class="colonne">Colonne D</div>
+
+            </aside>
+
+            <div id="contenu">
+
+                <p>Contenu</p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y80juYcu3ZI" frameborder="0"
+
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             </div>
-            <div class="bloc">Bloc C</div>
-            <div class="bloc">Bloc D</div>
-        </div>
-    </main>
+
+        </main>
+
 ​
-    <footer>
-        <div class="conteneur">
+
+        <!-- pied de page -->
+
+        <footer>
+
             <div class="footer1">Footer 1</div>
+
             <div class="footer2">Footer 2</div>
-        </div>
-    </footer>
-​
-</body>
-</html>
+
+            <div class="footer1">Footer 3</div>
+
+            <div class="footer2">Footer 4</div>
+
+        </footer>
+
+        
